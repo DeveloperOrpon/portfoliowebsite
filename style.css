@@ -6,7 +6,7 @@ body {
 h1 {
   font-size: 50px;
 }
-.name-highlight {
+.orange-highlight {
   color: orange;
 }
 section {
@@ -49,7 +49,48 @@ p {
 .cv-text {
   padding-right: 40px;
 }
-.experience-area .half-width {
+.card-banner {
+  width: 100%;
   float: left;
-  width: 40%;
+  background-image: url("image/exp-bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.card-banner h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-left: 10px;
+  margin-bottom: 30px;
+}
+.card-head {
+  font-size: 30px;
+}
+.card {
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 10px;
+  height: 300px;
+  padding-right: 20px;
+  margin-right: 0px;
+  background-color: white;
+}
+#First-card {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, lightSalmon, tomato);
+  border-image-slice: 1;
+}
+#First-card:hover {
+  box-shadow: 10px 10px 20px gray;
+}
+#Second-card {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, blue, cyan);
+  border-image-slice: 1;
+}
+footer {
+  float: left;
+}
+footer p {
+  margin-left: 700px;
+  text-align: center;
+  font-size: 12px;
 }
