@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 body {
   font-family: "Poppins", sans-serif;
+  margin: 0;
 }
 h1 {
   font-size: 50px;
@@ -8,12 +9,47 @@ h1 {
 .name-highlight {
   color: orange;
 }
+section {
+  height: 600px;
+  width: 100%;
+}
 .half-width {
   width: 40%;
   float: left;
   margin-left: 5%;
   padding-left: 2%;
+  padding-bottom: 50px;
 }
 .half-width img {
   width: 100%;
+  height: 600px;
+}
+p {
+  text-align: justify;
+}
+.top-banner {
+  background-image: url("image/top-banner.png");
+  background-repeat: no-repeat;
+}
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(45deg, lightSalmon, tomato);
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 700;
+}
+.Middle-banner {
+  margin-top: 20px;
+  background-image: url("image/dream-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-bottom: 30px;
+}
+.cv-text {
+  padding-right: 40px;
+}
+.experience-area .half-width {
+  float: left;
+  width: 40%;
 }
